@@ -1,0 +1,30 @@
+.main{
+   
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.display{
+    /* border: 1px solid green; */
+    width: 100%;
+}
+
+.display>p{
+    font-weight: bold;
+    font-size:20px
+    
+}
+
+.sort>select{
+    font-size: 25px;
+
+}
+
+.sort{
+    font-size: 25px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
